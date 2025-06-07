@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agile Ad - Digital Marketing Solutions</title>
+    <link rel="icon" type="image/jpg" href="img/mainfavicon.jpg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Floating Notification Bar -->
+    <div class="notification-bar" id="notificationBar">
+        <div class="notification-content">
+            <span>🎉 Special Offer: Get 20% off on your first digital marketing campaign!</span>
+            <a href="https://wa.me/6757579732" class="whatsapp-button">
+                <i class="fab fa-whatsapp"></i> Chat Now
+            </a>
+        </div>
+        <button class="close-notification" id="closeNotification">&times;</button>
+    </div>
+
+   <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="img/navlogo.jpg" alt="Agile Ad Logo" class="nav-logo">
+            </a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <!-- Industries submenu -->
+                <div class="industries-menu">
+                    <a href="#industries">Industries</a>
+                        <div class="industries-dropdown">
+                            <!-- Basic Industries -->
+                            <div class="industries-category">
+                                <a href="#aerospace">Law and Order & National Security</a>
+                            </div>
+                            <div class="industries-category">
+                                <a href="#automotive">Automotive & Aviation</a>
+                            </div>
+                            <div class="industries-category">
+                                <a href="#aviation">Tourism</a>
+                            </div>
+                            <div class="industries-category">
+                                <a href="#consumer">Consumer Products</a>
+                            </div>
+
+                            <!-- Energy & Natural Resources -->
+                            <div class="industries-category">
+                                <a href="#energy">Energy & Natural Resources</a>
+                                <ul class="sub-industries">
+                                    <li><a href="#agribusiness">Agribusiness</a></li>
+                                    <li><a href="#chemicals">Chemicals</a></li>
+                                    <li><a href="#mining">Mining</a></li>
+                                    <li><a href="#oil-gas">Oil & Gas</a></li>
+                                    <li><a href="#utilities">Utilities & Renewables</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Financial Services -->
+                            <div class="industries-category">
+                                <a href="#financial">Financial Services</a>
+                                <ul class="sub-industries">
+                                    <li><a href="#banking">Banking</a></li>
+                                    <li><a href="#insurance">Insurance</a></li>
+                                    <li><a href="#payments">Payments</a></li>
+                                    <li><a href="#wealth">Wealth & Asset Management</a></li>
+                                    <li><a href="#fintech">Fintech</a></li>
+                                    <li><a href="#blockchain">Digital Assets and Blockchain</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Healthcare -->
+                            <div class="industries-category">
+                                <a href="#healthcare">Healthcare & Life Sciences</a>
+                                <ul class="sub-industries">
+                                    <li><a href="#pharma">Pharmaceuticals</a></li>
+                                    <li><a href="#medtech">Medical Technology</a></li>
+                                    <li><a href="#payers">Healthcare Payers</a></li>
+                                    <li><a href="#providers">Healthcare Providers and Services</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Technology -->
+                            <div class="industries-category">
+                                <a href="#technology">Technology</a>
+                                <ul class="sub-industries">
+                                    <li><a href="#cloud">Cloud Computing</a></li>
+                                    <li><a href="#hardware">Hardware</a></li>
+                                    <li><a href="#it-services">IT Services</a></li>
+                                    <li><a href="#semiconductors">Semiconductors</a></li>
+                                    <li><a href="#software">Software</a></li>
+                                </ul>
+                            </div>
+
+                            <!-- Add all other categories -->
+                            <!-- Continue with the rest of your industries... -->
+                        </div>
+                </div>
+                    <!--Submenu-Dropdown-technology-->
+                <div class="industries-menu">
+                    <a href="#industries">Technology</a>
+                    <div class="industries-dropdown">
+                        <div class="industries-category">
+                        <a href="#aerospace">Data, AI & Analytics</a>
+                        </div>
+                        <div class="industries-category">
+                            <a href="#automotive">Cloud Computing</a>
+                        </div>
+                        <div class="industries-category">
+                            <a href="#aviation">Automation</a>
+                        </div>
+                        <div class="industries-category">
+                            <a href="#consumer">Emerging Technology</a>
+                        </div>
+
+                        <!-- Energy & Natural Resources -->
+                        <div class="industries-category">
+                            <a href="#energy">Marketing & Research</a>
+                            <ul class="sub-industries">
+                                <li><a href="#agribusiness"></a>B2C Marketing</li>
+                                <li><a href="#chemicals">B2B Marketing</a></li>
+                                <li><a href="#mining">Advance Analytics</a></li>
+                                <li><a href="#oil-gas"></a></li>
+                                <li><a href="#utilities">Product Management</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Financial Services -->
+                        <div class="industries-category">
+                            <a href="#financial">IT Services</a>
+                            <ul class="sub-industries">
+                                <li><a href="#banking">Software Development</a></li>
+                                <li><a href="#insurance">Systems Integration</a></li>
+                                <li><a href="#payments">Hardware & Infrastracture</a></li>
+                                <li><a href="#wealth">Networking</a></li>
+                                <li><a href="#fintech">DevOps</a></li>
+                                <li><a href="#blockchain">Repairs</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Healthcare -->
+                        <div class="industries-category">
+                            <a href="#healthcare">Healthcare & Life Sciences</a>
+                            <ul class="sub-industries">
+                                <li><a href="#pharma">Pharmaceuticals</a></li>
+                                <li><a href="#medtech">Medical Technology</a></li>
+                                <li><a href="#payers">Digital Literacy & Adoption</a></li>
+                                <li><a href="#providers"></a>Design & Delivery</li>
+                            </ul>
+                        </div>
+
+                        <!-- Technology -->
+                        <div class="industries-category">
+                            <a href="#technology">customer Services</a>
+                            <ul class="sub-industries">
+                                <li><a href="#cloud">Sales</a></li>
+                                <li><a href="#hardware">Digital Services</a></li>
+                                <li><a href="#it-services">Product Identity & Research</a></li>
+                                <li><a href="#semiconductors">Customer Experience</a></li>
+                                <li><a href="#software">Product Knowledge and Training</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Add all other categories -->
+                        <!-- Continue with the rest of your industries... -->
+                    </div>
+                </div>
+                <!--Submenu-Consultancy-Dropdown-->
+                <div class="industries-menu">
+                    <a href="#industries">Consultancy</a>
+                    <div class="industries-dropdown">
+                        <div class="industries-category">
+                            <a href="#aerospace">Sustainability</a>
+                        </div>
+                        <div class="industries-category">
+                            <a href="#automotive">Technology & Digital Transformation</a>
+                        </div>
+                        <div class="industries-category">
+                            <a href="#aviation">Innovation & Adaption</a>
+                        </div>
+                        <div class="industries-category">
+                            <a href="#consumer">Mergers & Acquisitions</a>
+                        </div>
+
+                        <!-- Energy & Natural Resources -->
+                        <div class="industries-category">
+                            <a href="#energy">Artificial Interligence</a>
+                            <ul class="sub-industries">
+                                <li><a href="#agribusiness"></a>Predictive Analytics</li>
+                                <li><a href="#chemicals">Robotic Process Automation</a></li>
+                                <li><a href="#mining">AI in Healthcare</a></li>
+                                <li><a href="#oil-gas">AI in Investigation</a></li>
+                                <li><a href="#utilities">AI in Crimes</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Financial Services -->
+                        <div class="industries-category">
+                            <a href="#financial">People & Organization</a>
+                            <ul class="sub-industries">
+                                <li><a href="#banking">Human Resources</a></li>
+                                <li><a href="#insurance">Insurance</a></li>
+                                <li><a href="#payments">Business Process</a></li>
+                                <li><a href="#wealth">Asset Managements</a></li>
+                                <li><a href="#fintech">Fintech</a></li>
+                                <li><a href="#blockchain">Digital Library</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Healthcare -->
+                        <div class="industries-category">
+                            <a href="#healthcare">Healthcare & Life Sciences</a>
+                            <ul class="sub-industries">
+                                <li><a href="#pharma">Pharmaceuticals</a></li>
+                                <li><a href="#medtech">Medical Technology</a></li>
+                                <li><a href="#payers">Healthcare Payers</a></li>
+                                <li><a href="#providers">Healthcare Providers and Services</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- Technology -->
+                                <div class="industries-category">
+                                    <a href="#technology">Technology</a>
+                                    <ul class="sub-industries">
+                                        <li><a href="#cloud">Cloud Computing</a></li>
+                                        <li><a href="#hardware">Hardware</a></li>
+                                        <li><a href="#it-services">IT Services</a></li>
+                                        <li><a href="#semiconductors">Semiconductors</a></li>
+                                        <li><a href="#software">Software</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- Add all other categories -->
+                                <!-- Continue with the rest of your industries... -->
+                    </div>
+                </div>
+            <!--Mobile button-->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section Version 2 -->
+     <!--
+    <section id="home" class="hero">
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Transform Your Digital Presence</h1>
+            <p>Strategic. Creative. Results-Driven.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+    -->
+
+    <!-- Hero Section Version 3-->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url('img/4.jpg')"></div>
+            <div class="slide" style="background-image: url('img/3.jpg')"></div>
+            <div class="slide" style="background-image: url('img/2.jpg')"></div>
+            <div class="slide" style="background-image: url('img/1.jpg')"></div>
+        </div>
+        <div class="hero-content" data-aos="fade-up">
+            <h1>Transform Your Digital Presence</h1>
+            <p>Strategic. Creative. Results-Driven.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+        <div class="slider-nav">
+            <div class="slider-dot active"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+            <div class="slider-dot"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2 data-aos="fade-up">Our Services</h2>
+        <div class="services-container">
+            <!-- SEO Optimization -->
+            <div class="service-card" data-aos="flip-left">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-search"></i>
+                        <h3>SEO Optimization</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>SEO Optimization</h3>
+                        <p>Boost your website rankings with our expert SEO services.</p>
+                        <ul>
+                            <li>Keyword Research</li>
+                            <li>On-Page Optimization</li>
+                            <li>Link Building</li>
+                            <li>Technical SEO</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PPC Management -->
+            <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-ad"></i>
+                        <h3>PPC Management</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>PPC Management</h3>
+                        <p>Maximize ROI with targeted paid advertising campaigns.</p>
+                        <ul>
+                            <li>Google Ads</li>
+                            <li>Social Media Ads</li>
+                            <li>Display Advertising</li>
+                            <li>Retargeting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media Management -->
+            <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-share-nodes"></i>
+                        <h3>Social Media</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Social Media Management</h3>
+                        <p>Engage your audience across all social platforms.</p>
+                        <ul>
+                            <li>Content Creation</li>
+                            <li>Community Management</li>
+                            <li>Social Strategy</li>
+                            <li>Analytics & Reporting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Analytics -->
+            <div class="service-card" data-aos="flip-left" data-aos-delay="300">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Analytics</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Analytics</h3>
+                        <p>Data-driven insights to improve your marketing strategy.</p>
+                        <ul>
+                            <li>Performance Tracking</li>
+                            <li>Customer Behavior</li>
+                            <li>Conversion Analysis</li>
+                            <li>ROI Measurement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Surveys -->
+            <div class="service-card" data-aos="flip-left" data-aos-delay="400">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-clipboard-question"></i>
+                        <h3>Surveys</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Research & Surveys</h3>
+                        <p>Gather valuable insights from your target audience.</p>
+                        <ul>
+                            <li>Market Research</li>
+                            <li>Customer Feedback</li>
+                            <li>Brand Analysis</li>
+                            <li>Competitive Analysis</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Technologies -->
+            <div class="service-card" data-aos="flip-left" data-aos-delay="500">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <i class="fas fa-microchip"></i>
+                        <h3>Technologies</h3>
+                    </div>
+                    <div class="card-back">
+                        <h3>Technologies</h3>
+                        <p>Cutting-edge solutions for your digital needs.</p>
+                        <ul>
+                            <li>Web Development</li>
+                            <li>Mobile Apps</li>
+                            <li>Cloud Solutions</li>
+                            <li>AI Integration</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-container">
+            <h2 data-aos="fade-up">Get in Touch</h2>
+            <form id="contactForm" data-aos="fade-up">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <div class="error-message" id="nameError">Please enter your name</div>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <div class="error-message" id="emailError">Please enter a valid email</div>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                    <div class="error-message" id="messageError">Please enter your message</div>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Team</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Client Success Stories</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">SEO Optimization</a></li>
+                    <li><a href="#">PPC Management</a></li>
+                    <li><a href="#">Social Media Marketing</a></li>
+                    <li><a href="#">Analytics & Reporting</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Case Studies</a></li>
+                    <li><a href="#">Marketing Guides</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <HTYEp><i class="fas fa-map-marker-alt"></i> Street (corner of Lawes Road & Champion Parade)<br>
+                    Konedobu, National Capital District<br>
+                    Papua New Guinea</p>
+                    <p><i class="fas fa-envelope"></i> Box 1772, Waterfront</p>
+                    <p><i class="fas fa-phone"></i>Phone: (675) 308 4432</p>
+                    <p><i class="fas fa-mobile-alt"></i>Mobile: (675) 7579732</p>
+                    <p><i class="fas fa-envelope"></i>Email: info@agilead.com.pg</p>
+                    <p><i class="fas fa-globe"></i>Web: www.agilead.com.pg</p>
+                </div>
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Agile Ad. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a> | <a href="#">Sitemap</a></p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
